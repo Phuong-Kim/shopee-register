@@ -41,6 +41,7 @@ require 'sample.php';
 </head>
 
 <body>
+    <h1>1234556677</h1>
 
 
     <!-- phần header -->
