@@ -41,9 +41,6 @@ require 'sample.php';
 </head>
 
 <body>
-    <h1>1234556677</h1>
-
-
     <!-- phần header -->
     <div class="background">
         <div class="header container">
@@ -559,7 +556,7 @@ require 'sample.php';
                                         <div class="present col-md-2">-70%</div>
                                         <div class="you-like">
 
-                                            <img src="../SHOPEEphp/uploads/<? echo $first_img; ?>">
+                                            <img src="../SHOPEE-register/uploads/<? echo $first_img; ?>">
 
                                         </div>
                                         <div class="sale"><img src="./image/qc-9-9.png" alt=""></div>
