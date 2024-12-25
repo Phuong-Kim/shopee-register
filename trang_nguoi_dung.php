@@ -561,39 +561,39 @@ require 'sample.php';
 
                     ?>
 
-                    <a href="./trang_san_pham.php?id=<? echo $id; ?>">
-                        <div class=" part-6-like part-5-shirt">
-                            <!-- ảnh sản phẩm -->
-                            <div class="relative part-5-shirt-img">
-                                <div class="present col-md-2">-70%</div>
-                                <div class="you-like">
+                            <a href="./trang_san_pham.php?id=<? echo $id; ?>">
+                                <div class=" part-6-like part-5-shirt">
+                                    <!-- ảnh sản phẩm -->
+                                    <div class="relative part-5-shirt-img">
+                                        <div class="present col-md-2">-70%</div>
+                                        <div class="you-like">
 
-                                    <img src="../SHOPEEphp/uploads/<? echo $first_img; ?>">
+                                            <img src="../SHOPEE-register/uploads/<? echo $first_img; ?>">
 
+                                        </div>
+                                        <div class="sale"><img src="./image/qc-9-9.png" alt=""></div>
+                                    </div>
+                                    <!-- thông tin -->
+                                    <div class="gyn_content">
+                                        <div class="part-5-information col-md-12 display-flex">
+                                            <p><span>Yêu thích</span>
+                                                <? echo $name; ?>
+                                            </p>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="part-5-price display-flex">
+                                            <p class="display-flex"><span class="d">đ</span>
+                                                <? echo $price; ?>
+                                            </p>
+                                            <p><span>Đã bán</span>
+                                                <span class="color-red">
+                                                    <? echo $da_ban; ?>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="sale"><img src="./image/qc-9-9.png" alt=""></div>
-                            </div>
-                            <!-- thông tin -->
-                            <div class="gyn_content">
-                                <div class="part-5-information col-md-12 display-flex">
-                                    <p><span>Yêu thích</span>
-                                        <? echo $name; ?>
-                                    </p>
-                                </div>
-                                <!-- giá -->
-                                <div class="part-5-price display-flex">
-                                    <p class="display-flex"><span class="d">đ</span>
-                                        <? echo $price; ?>
-                                    </p>
-                                    <p><span>Đã bán</span>
-                                        <span class="color-red">
-                                            <? echo $da_ban; ?>
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                            </a>
 
 
                     <?
@@ -1492,29 +1492,29 @@ require 'sample.php';
 
 </html>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    new Splide('#image-carousel').mount();
-});
-document.addEventListener('DOMContentLoaded', function() {
-    new Splide('#thumbnail-carousel', {
-        perPage: 10,
-        perMove: 1,
-        gap: 10,
-        rewind: true, // Loop the carousel after reaching the end
-        pagination: false, // Disable pagination
-        arrows: true,
-    }).mount();
-});
-document.addEventListener('DOMContentLoaded', function() {
-    new Splide('#thumbnail-carousel2', {
-        perPage: 6,
-        perMove: 1,
-        gap: 10,
-        rewind: true,
-        pagination: false,
-    }).mount();
-});
-document.addEventListener('DOMContentLoaded', function() {
-    new Splide('#image-carousel3').mount();
-});
+    document.addEventListener('DOMContentLoaded', function() {
+        new Splide('#image-carousel').mount();
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        new Splide('#thumbnail-carousel', {
+            perPage: 10,
+            perMove: 1,
+            gap: 10,
+            rewind: true, // Loop the carousel after reaching the end
+            pagination: false, // Disable pagination
+            arrows: true,
+        }).mount();
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        new Splide('#thumbnail-carousel2', {
+            perPage: 6,
+            perMove: 1,
+            gap: 10,
+            rewind: true,
+            pagination: false,
+        }).mount();
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        new Splide('#image-carousel3').mount();
+    });
 </script>
